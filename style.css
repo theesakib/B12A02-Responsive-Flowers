@@ -92,13 +92,9 @@
     font-size: 16px;
     margin-bottom: 30px;
 }
-
 .cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-}
-.plant-img{
-    width: 100%;
 }
 .image-lover {
   position: relative;
@@ -282,10 +278,18 @@
 .banner-left{
     margin: 25px 16px;
 }
+
+/* ////////////////////////////////////////////////// */
 .cards{
      grid-template-columns: repeat(2, 1fr); 
-    gap: 16px;
-    padding: 0 16px;
+    gap: 6px;
+    width: aut;
+}
+.plant-card{
+    width: auto;
+}
+.plant-img{
+    width: auto;
 }
 .lover{
     flex-direction: column;
