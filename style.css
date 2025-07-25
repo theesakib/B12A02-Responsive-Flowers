@@ -31,3 +31,49 @@
 .navbar img{
     height: 100%;
 }
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0;
+}
+.text-color{
+    color: #E95A08;
+}
+.p-tag{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.50);
+}
+.banner-left h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-left{
+    max-width: 550px;
+    margin-top: auto;
+}
+.banner img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px){
+    .li-1,.li-2,.li-3 {
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-left h1{
+        font-size: 24px;
+
+    }
+    .p-tag{
+    font-weight: 400;
+    font-size: 14px;
+}
+.banner-left{
+    margin: 25px 16px;
+}
+}
